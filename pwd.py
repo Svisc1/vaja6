@@ -25,3 +25,7 @@ while True:
     if lower == False:
         print("Password must contain a lower letter.")
         valid = False
+        
+    if number == False:
+        print("Password must contain a number.")
+        valid = False
